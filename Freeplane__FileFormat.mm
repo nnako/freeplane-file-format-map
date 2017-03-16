@@ -1,6 +1,6 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node LOCALIZED_STYLE_REF="default" FOLDED="false" ID="ID_1590962990" CREATED="1379154751484" MODIFIED="1411579998525" LINK="https://github.com/nnako/freeplane-file-format-map"><richcontent TYPE="NODE">
+<node FOLDED="false" ID="ID_1590962990" CREATED="1379154751484" MODIFIED="1489647388379" LINK="https://github.com/nnako/freeplane-file-format-map"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -16,8 +16,7 @@
   </body>
 </html>
 </richcontent>
-<font BOLD="false"/>
-<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<edge STYLE="horizontal" COLOR="#cccccc"/>
 <hook NAME="MapStyle" zoom="0.62">
     <properties show_icon_for_attributes="true" show_note_icons="true"/>
 
@@ -25,7 +24,7 @@
 <stylenode LOCALIZED_TEXT="styles.root_node">
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
 <stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
-<font NAME="SansSerif" SIZE="12" BOLD="false" ITALIC="false"/>
+<font NAME="Segoe UI" SIZE="12" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.note"/>
@@ -48,7 +47,7 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 <stylenode TEXT="klein und grau" COLOR="#999999">
-<font NAME="SansSerif" SIZE="10"/>
+<font SIZE="10"/>
 </stylenode>
 <stylenode TEXT="POSITIV (gr&#xfc;n)" COLOR="#338800"/>
 <stylenode TEXT="NEGATIV (rot)" COLOR="#ff0000">
@@ -318,7 +317,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="false"/>
 <node TEXT="in case TEXT attribute is an INTEGER" STYLE_REF="klein und grau" ID="ID_902209911" CREATED="1374827710406" MODIFIED="1473593040294"/>
@@ -337,7 +335,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="false"/>
 <node TEXT="in cas TEXT attribute is a DOUBLE value" STYLE_REF="klein und grau" ID="ID_710312764" CREATED="1374827728781" MODIFIED="1473593055660"/>
@@ -357,7 +354,7 @@
 <icon BUILTIN="help"/>
 <font BOLD="true"/>
 </node>
-<node ID="ID_901764471" CREATED="1334261155406" MODIFIED="1473504180523" MIN_WIDTH="320"><richcontent TYPE="NODE">
+<node ID="ID_901764471" CREATED="1334261155406" MODIFIED="1489647866157"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -375,16 +372,51 @@
 <node TEXT="TYPE" ID="ID_1442408722" CREATED="1407935325109" MODIFIED="1454181304040">
 <font BOLD="true"/>
 <node TEXT="&lt;value&gt;" STYLE_REF="klein und grau" ID="ID_804196901" CREATED="1407935360281" MODIFIED="1407935370078">
+<node TEXT="where the described content is aimed for" ID="ID_465322479" CREATED="1489648052473" MODIFIED="1489648109087"/>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_819473153" CREATED="1489647905272" MODIFIED="1489647906312">
 <node TEXT="NONE" ID="ID_140676697" CREATED="1454181307634" MODIFIED="1454181316731">
 <font BOLD="true"/>
+<node TEXT="concerns the node&apos;s CORE" STYLE_REF="klein und grau" ID="ID_913792247" CREATED="1489648111137" MODIFIED="1489648123642"/>
+</node>
+</node>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_1848243133" CREATED="1489647907160" MODIFIED="1489647908019">
+<node TEXT="DETAILS" ID="ID_359741185" CREATED="1489647908020" MODIFIED="1489647910740">
+<font BOLD="true"/>
+<node TEXT="concerns the node&apos;s DETAILS part" STYLE_REF="klein und grau" ID="ID_1589356565" CREATED="1489647911715" MODIFIED="1489648134961"/>
+</node>
+</node>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_280022612" CREATED="1489648139983" MODIFIED="1489648140795">
+<node TEXT="..." ID="ID_1098467355" CREATED="1489648140796" MODIFIED="1489648141420"/>
 </node>
 </node>
 </node>
 </node>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_336925598" CREATED="1489647984904" MODIFIED="1489647987385">
+<node TEXT="HIDDEN" ID="ID_1092474324" CREATED="1489647987386" MODIFIED="1489647989544">
+<font BOLD="true"/>
+<node TEXT="&lt;value&gt;" STYLE_REF="klein und grau" ID="ID_814637840" CREATED="1489647989942" MODIFIED="1489647994101">
+<node TEXT="hidden state of contents" ID="ID_1686644859" CREATED="1489647997570" MODIFIED="1489648014210"/>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_1351039058" CREATED="1489648014746" MODIFIED="1489648015808">
+<node TEXT="true" ID="ID_5005660" CREATED="1489648015809" MODIFIED="1489648017546">
+<font BOLD="true"/>
+<node TEXT="contents are hidden" STYLE_REF="klein und grau" ID="ID_659272022" CREATED="1489648024050" MODIFIED="1489648032749"/>
+</node>
+</node>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_1112114209" CREATED="1489648018474" MODIFIED="1489648019396">
+<node TEXT="false" ID="ID_310712760" CREATED="1489648019397" MODIFIED="1489648023574">
+<font BOLD="true"/>
+<node TEXT="contents are visible in map" STYLE_REF="klein und grau" ID="ID_253655258" CREATED="1489648033659" MODIFIED="1489648040627"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="." STYLE_REF="klein und grau" ID="ID_1102384915" CREATED="1489648146012" MODIFIED="1489648146973">
 <node TEXT="..." ID="ID_387114115" CREATED="1454181197872" MODIFIED="1454181198623"/>
 </node>
 </node>
-<node TEXT="[ html ]" STYLE_REF="klein und grau" ID="ID_1511395122" CREATED="1473504089674" MODIFIED="1473504097960">
+</node>
+<node TEXT="[ html ]" STYLE_REF="klein und grau" ID="ID_1511395122" CREATED="1473504089674" MODIFIED="1489648256156">
 <node ID="ID_1244274541" CREATED="1473504103145" MODIFIED="1473504288606"><richcontent TYPE="NODE">
 
 <html>
@@ -399,6 +431,15 @@
 </html>
 </richcontent>
 <font BOLD="true"/>
+</node>
+<node TEXT="[ head ]" STYLE_REF="klein und grau" ID="ID_631012877" CREATED="1489648263697" MODIFIED="1489648266990">
+<node TEXT="&lt;head&gt;" ID="ID_503069662" CREATED="1489648270507" MODIFIED="1489648362653">
+<font BOLD="true"/>
+</node>
+<node TEXT="[]" STYLE_REF="klein und grau" ID="ID_1312720615" CREATED="1489648279491" MODIFIED="1489648282605"/>
+<node TEXT="&lt;/head&gt;" ID="ID_1783055848" CREATED="1489648274976" MODIFIED="1489648363871">
+<font BOLD="true"/>
+</node>
 </node>
 <node TEXT="[ body ]" STYLE_REF="klein und grau" ID="ID_893636930" CREATED="1473504125874" MODIFIED="1473504136171">
 <node TEXT="&lt;body&gt;" ID="ID_335808561" CREATED="1473504137254" MODIFIED="1473504288608">
@@ -461,7 +502,7 @@
 <font BOLD="true"/>
 </node>
 </node>
-<node ID="ID_393498926" CREATED="1334261155406" MODIFIED="1473592207816" MIN_WIDTH="320"><richcontent TYPE="NODE">
+<node ID="ID_393498926" CREATED="1334261155406" MODIFIED="1489647866157"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -473,7 +514,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -490,7 +530,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&lt;attribute&gt;" STYLE_REF="klein und grau" ID="ID_129338286" CREATED="1407933170843" MODIFIED="1407933178125">
 <node TEXT="." STYLE_REF="klein und grau" ID="ID_901133645" CREATED="1454182302998" MODIFIED="1454182303726">
@@ -535,7 +574,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&lt;attribute&gt;" STYLE_REF="klein und grau" ID="ID_1404585253" CREATED="1407933170843" MODIFIED="1407933178125">
 <node TEXT="attribute to be set" ID="ID_1708993452" CREATED="1473592489949" MODIFIED="1473592497758"/>
@@ -571,7 +609,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&lt;attribute&gt;" STYLE_REF="klein und grau" ID="ID_1907476003" CREATED="1407933170843" MODIFIED="1407933178125">
 <node TEXT="attribute to be set" ID="ID_1898058863" CREATED="1473592489949" MODIFIED="1473592497758"/>
@@ -747,8 +784,8 @@
 <font NAME="SansSerif" SIZE="10"/>
 <node TEXT="name of predefined style" ID="ID_673030331" CREATED="1454183575743" MODIFIED="1454183774926">
 <node TEXT="ref" STYLE_REF="klein und grau" ID="ID_569252345" CREATED="1454183591852" MODIFIED="1454183781189">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1472153919" STARTINCLINATION="583;0;" ENDINCLINATION="583;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1561084230" STARTINCLINATION="583;0;" ENDINCLINATION="583;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1472153919" STARTINCLINATION="583;0;" ENDINCLINATION="583;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="." STYLE_REF="klein und grau" ID="ID_758642047" CREATED="1454182536344" MODIFIED="1454182536993">
@@ -1142,9 +1179,9 @@
 <node TEXT="&lt;value&gt;" STYLE_REF="klein und grau" ID="ID_847501485" CREATED="1407935360281" MODIFIED="1407935370078">
 <node TEXT="identifier of node" ID="ID_429556176" CREATED="1407935602125" MODIFIED="1407935610968">
 <node TEXT="ref" STYLE_REF="klein und grau" ID="ID_1923578042" CREATED="1407935865218" MODIFIED="1454177509315">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1867889382" STARTINCLINATION="583;0;" ENDINCLINATION="583;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1987828599" STARTINCLINATION="385;0;" ENDINCLINATION="495;-41;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1458655969" STARTINCLINATION="539;0;" ENDINCLINATION="539;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1867889382" STARTINCLINATION="583;0;" ENDINCLINATION="583;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node ID="ID_203754029" CREATED="1407935611421" MODIFIED="1407935625875"><richcontent TYPE="NODE">
