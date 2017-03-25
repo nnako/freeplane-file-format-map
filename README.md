@@ -7,29 +7,30 @@ a mindmap describing the Freeplane file format in detail across different progra
 scope
 -----
 
-- helps users and developers exploring the Freeplane file format
+- help users and developers to explore the Freeplane file format
 - should be rather detailled and formally correct
-- will use attributes like "version : v1.2.x" for change identification
-- will be viewable/addressable from the Freeplane index map
 - can be filtered to see e.g. just the new formats of a certain revision
 - can be used as a basis for export filter development
+- can be used as a help when automating map access
 
 
 
 usage
 -----
 
-- clone repository
-- load map into Freeplane
-- do detailed adjustments
-- push map (pull request)
+Any Freeplane power user is invited to contribute to this file format map, so please:
+
+- clone this repository
+- open the map with Freeplane v1.3.x or less
+- do your adjustments and enhancements
+- check your modifications's style
+- save and push the map (a pull request will be generated)
 
 
 
 TODO
 ----
 
-- remove German expressions
 - complete format details for Freeplane v1.2.x
 - complete format details for Freeplane v1.3.x
 - add (invisible) version attributes
